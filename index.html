@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Wall - Angkatan VII</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <div class="container">
+    <h1>✨ Memory Wall Angkatan VII ✨</h1>
+    <p class="subtitle">Tulis kenanganmu dan abadikan di sini selamanya 💭</p>
+
+    <form id="memoryForm">
+      <input type="text" id="name" placeholder="Namamu..." required>
+      <textarea id="message" placeholder="Kenangan indah..." required></textarea>
+      <input type="file" id="image" accept="image/*">
+      <button type="submit">Kirim</button>
+    </form>
+
+    <div id="memories"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
